@@ -6,7 +6,7 @@ Styles (padding, corner radius, border width, etc) adjust automatically dependin
 
 ## Usage
 ```
-  let bubbleView = SpeechBubble(baseView: buttonView, text: "Yay! Bark!", fontSize: 16.0)
+  let bubbleView = SpeechBubble(baseView: buttonView, text: "Yay! Bark!", fontSize: 16.0, side: .bottom)
   parentView.addSubview(bubbleView)
 ```
 
